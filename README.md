@@ -26,7 +26,7 @@ Long Double -> 10 bytes -> ( allows even more than double 10 to 16 bytes dependi
 
 Constants :-
 Constants are those values which doesn't change
-Ex:- float const PI = 3.14;
+Ex:- const float PI = 3.14;
 now the value of PI doesn't changes throughout the program
 
 Keywords :-
