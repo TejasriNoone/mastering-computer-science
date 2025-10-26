@@ -54,6 +54,71 @@ User Input :-
 It prompts the user to enter the input
 scanf("%d", &variable);
 
+Instructions and Operators:-
+
+Chapter - 2 :-
+
+(1) Instructions:- These are the statements in a program
+Types:-
+1) Type declaration instructions
+2) Arithmetic Instructions
+3) Control Instructions
+
+1) Type Declaration Instructions:- Declare variable before using it
+wrong:-
+age = 22;
+int age;
+
+correct:- 
+int age = 22;
+
+2) Arithmetic Instructions:- 
+-> Operator should be in between 2 operands
+-> On LHS side there should only be one variable
+  a = b + c
+
+Type Conversion:-
+-> int op int -> int (if 2 operands are int then the output will be int)
+-> int op float -> float
+-> float op float -> float
+
+Operator Precedence:-
+1) *, /,%
+2) +,-
+3) =
+
+Associativity:-
+If the operators have same precedence then the precednce will be given from left to right
+
+3) Control Instructions :-used to determine flow of program
+(a) Sequence Control :- step by step execution of program
+(b) Decision Control :- make decisons and execute the code only if the condition is satisfied
+(c) Loop Control :- Ability to repeat the block of code until the condition is met
+(d) Case Control :- select one of many paths (used for switch case)
+
+(2) Operators :- Operators are used to perform operations between operands
+
+(a) Arithmetic operators :- + , - , * , / , %
+(b) Relational operators :- == , > , < , >= , <= , !=
+(c) Logical operators :- && , || , !
+(d) Bitwise operator :- & , | , ^ , ~
+(e) Assignment operator :- = , += , -= , *= , /= , %=
+(f) Ternary operator :- ?:
+
+Operator Precedence :-
+Priority                    operator
+1                               !
+2                             *, /, %
+3                             +, -
+4                             < , <= ,>= ,>
+5                              == , !=
+6                               &&
+7                               ||
+8                               =
+
+
+
+
 
 
 
